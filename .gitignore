@@ -1,5 +1,6 @@
 # java specific
 *.class
+.idea
 
 # Package File
 *.jar
