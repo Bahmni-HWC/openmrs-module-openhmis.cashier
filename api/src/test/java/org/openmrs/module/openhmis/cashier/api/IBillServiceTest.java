@@ -18,8 +18,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import liquibase.util.StringUtils;
-
+import org.apache.commons.lang3.StringUtils;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openmrs.Patient;

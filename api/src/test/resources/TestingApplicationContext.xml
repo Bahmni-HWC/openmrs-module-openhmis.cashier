@@ -26,6 +26,11 @@
 				<value>classpath:test-hibernate.cfg.xml</value>
 			</list>
 		</property>
+		<property name="packagesToScan">
+			<list>
+				<value>org.openmrs</value>
+			</list>
+		</property>
 	</bean>
 	
 	<bean id="genericRepository" class="org.openmrs.module.openhmis.commons.api.entity.db.hibernate.HibernateRepository">

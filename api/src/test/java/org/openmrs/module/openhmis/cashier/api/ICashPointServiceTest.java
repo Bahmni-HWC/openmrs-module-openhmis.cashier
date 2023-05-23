@@ -16,8 +16,7 @@ package org.openmrs.module.openhmis.cashier.api;
 import java.util.Date;
 import java.util.List;
 
-import liquibase.util.StringUtils;
-
+import org.apache.commons.lang3.StringUtils;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openmrs.Location;
